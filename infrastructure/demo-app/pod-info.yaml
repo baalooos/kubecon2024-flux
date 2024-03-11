@@ -106,7 +106,8 @@ metadata:
   namespace: default
 spec:
   rules:
-  - http:
+  - host: podinfo.demo
+    http:
       paths:
       - path: /
         pathType: Prefix
