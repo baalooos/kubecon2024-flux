@@ -48,7 +48,7 @@ spec:
       ingress:
         ## If true, Grafana Ingress will be created
         ##
-        enabled: false
+        enabled: true
 
         ## IngressClassName for Grafana Ingress.
         ## Should be provided if Ingress is enable.
@@ -63,5 +63,5 @@ spec:
           ## Hostnames.
           ## Must be provided if Ingress is enable.
           ##
-          hosts:
-          - http://grafana.kubecon.sa-scw.fr
+        hosts:
+        - http://grafana.kubecon.sa-scw.fr
