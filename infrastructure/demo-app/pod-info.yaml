@@ -106,7 +106,7 @@ metadata:
   namespace: default
 spec:
   rules:
-  - host: podinfo.demo
+  - host: podinfo.kubecon.sa-scw.fr
     http:
       paths:
       - path: /
