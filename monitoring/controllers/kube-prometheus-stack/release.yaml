@@ -64,4 +64,4 @@ spec:
           ## Must be provided if Ingress is enable.
           ##
         hosts:
-        - http://grafana.kubecon.sa-scw.fr
+        - grafana.kubecon.sa-scw.fr
